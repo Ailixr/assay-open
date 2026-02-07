@@ -33,29 +33,7 @@
 
 ## Screenshots
 
-Add your own screenshots to `docs/screenshots/` and reference them here. Suggested filenames:
-
-| Page | Path | Description |
-|------|------|-------------|
-| Home | `docs/screenshots/home.png` | Landing page with service name and quick API hints. |
-| Invoice (unpaid) | `docs/screenshots/invoice-unpaid.png` | Invoice view with amount, tip options, feedback (rating + comment), and “Confirm & pay with ABA”. |
-| Invoice (paid) | `docs/screenshots/invoice-paid.png` | Thank-you state after payment. |
-| Rate (post-pay) | `docs/screenshots/rate.png` | Rate & tip page (when implemented). |
-| Dispute | `docs/screenshots/dispute.png` | Dispute form (when implemented). |
-| QR pay | `docs/screenshots/qr.png` | Scan to pay (KHQR) page (when implemented). |
-
-Example with images (uncomment and add files):
-
-```markdown
-### Home
-![Home](docs/screenshots/home.png)
-
-### Invoice page (unpaid)
-![Invoice unpaid](docs/screenshots/invoice-unpaid.png)
-
-### Invoice page (paid)
-![Invoice paid](docs/screenshots/invoice-paid.png)
-```
+![Invoice unpaid](docs/screenshots/invoice.png)
 
 ---
 
