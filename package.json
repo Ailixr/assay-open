@@ -9,7 +9,8 @@
     "lint": "next lint",
     "seed:key": "npx tsx scripts/seed-key.ts",
     "test:flow": "npx tsx scripts/simulate-flow.ts",
-    "demo": "npx tsx scripts/demo-invoice.ts"
+    "demo": "npx tsx scripts/demo-invoice.ts",
+    "test:invoice": "npx tsx scripts/create-customer-service-invoice.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
@@ -26,7 +27,7 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "autoprefixer": "^10.4.20",
-    "eslint": "^8.57.1",
+    "eslint": "^9.0.0",
     "eslint-config-next": "^16.1.6",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",

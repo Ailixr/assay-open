@@ -40,7 +40,7 @@ export async function POST(request: NextRequest) {
       if (rating != null && baseCost > 0) {
         const tipRatio = tipAmount / baseCost;
         const qualityScore = calculateQualityScore({
-          rating,
+          overallRating: rating,
           tipRatio,
           isDisputed: false,
           hasComment: !!invoice.rating_comment,
@@ -106,7 +106,7 @@ export async function POST(request: NextRequest) {
       if (rating != null && baseCost > 0) {
         const tipRatio = tipAmount / baseCost;
         const qualityScore = calculateQualityScore({
-          rating,
+          overallRating: rating,
           tipRatio,
           isDisputed: false,
           hasComment: !!invoice.rating_comment,
