@@ -9,7 +9,7 @@ Open-source AI quality measurement: invoice URLs, tipping, feedback, and **ABA (
 ## Quick start
 
 ```bash
-git clone https://github.com/your-org/assay.git
+git clone https://github.com/ailixr/assay-open.git
 cd assay
 npm install
 cp .env.example .env.local
